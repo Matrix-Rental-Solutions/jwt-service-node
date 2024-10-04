@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      "@devslane/jwt-service-node@1.0.5",
+      "/home/ubuntu/app/matrix-be"
+    ]
+  ],
+  "_from": "@devslane/jwt-service-node@1.0.5",
+  "_id": "@devslane/jwt-service-node@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-pFifAtX/8D7ZwB/Vb+CZb35AabpmiirQCKlo5WrO0M6LlwgDqOZ48RGEipgTUyieHgpnARa+3BzfSsWyX+YyYA==",
+  "_location": "/@devslane/jwt-service-node",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@devslane/jwt-service-node@1.0.5",
+    "name": "@devslane/jwt-service-node",
+    "escapedName": "@devslane%2fjwt-service-node",
+    "scope": "@devslane",
+    "rawSpec": "1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "1.0.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.devslane.com/@devslane%2fjwt-service-node/-/jwt-service-node-1.0.5.tgz",
+  "_spec": "1.0.5",
+  "_where": "/home/ubuntu/app/matrix-be",
+  "author": {
+    "name": "Piyush Mishra"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.3.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0"
+  },
+  "description": "JWT Service for node applications",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.13.0",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.2.2"
+  },
+  "directories": {
+    "lib": "lib",
+    "doc": "docs",
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "redis",
+    "service",
+    "helper"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@devslane/jwt-service-node",
+  "scripts": {
+    "build": "npm run build-ts && npm run tslint",
+    "build-ts": "tsc",
+    "docs": "typedoc --out docs lib",
+    "prepare": "npm run build && npm run test",
+    "test": "jest --coverage",
+    "test:jest": "jest",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "types": "index.d.ts",
+  "version": "1.0.5"
+}
